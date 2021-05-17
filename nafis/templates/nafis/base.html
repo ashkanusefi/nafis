@@ -1,0 +1,69 @@
+{% load static %}
+<html lang="en-US">
+<!DOCTYPE html>
+
+<head>
+    <title>
+        {% block title %}{% endblock %}
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="{% static "nafis/css/main.css" %}">
+</head>
+<body>
+
+<div id="f">
+</div>
+<div id="header">
+    <h1>خدمات درمان در منزل نفیس اصفهان</h1>
+</div>
+
+<div id="nav">
+    <div id="i">
+        ما را در اینستاگرام دنبال کنید&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09020869701
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09020869706
+    </div>
+</div>
+
+<div class="navbar">
+    <a href="{% url "conection" %}">ارتباط با ما</a>
+    <a href="{% url "about" %}">درباره ما</a>
+    <div class="dropdown">
+        <button class="dropbtn">ویدیو های اموزشی
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">سکته مغزی</a>
+            <a href="#">پارکینسون</a>
+            <a href="#">ام اس</a>
+            <a href="#">ضربه مغزی</a>
+            <a href="#">سایر بیماری های مغز و اعصاب</a>
+            <a href="#">سایر بیماری های ارتپدی</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">خدمات
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="{% url "pezeshki" %}">خدمات پزشکی در منزل</a>
+            <a href="{% url "parastari" %}">خدمات پرستاری در منزل</a>
+            <a href="{% url "fisoterpy" %}">فیزیوتراپی در منزل</a>
+            <a href="{% url "kardarmani" %}">کاردرمانی در منزل</a>
+            <a href="{% url "goftar" %}">گفتار درمانی در منزل</a>
+            <a href="{% url "fani" %}">ارتوپدی فنی</a>
+        </div>
+    </div>
+    <a href="{% url "nafis" %}">صفحه نخست</a>
+</div>
+{% block main_content %}{% endblock %}
+<script src="{% static "nafis/js/bootstrap.bundle.js" %}"></script>
+<script src="{% static "nafis/js/jquery-3.6.0.min.js" %}"></script>
+<script src="{% static "nafis/js/main.js" %}"></script>
+
+</body>
+</html>
