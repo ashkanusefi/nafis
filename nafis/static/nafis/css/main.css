@@ -1,5 +1,6 @@
+
 body {
-    background:linear-gradient(#fbfbfc, #a8c4e787);
+    background: linear-gradient(#fbfbfc, #a8c4e787);
     margin: 0px;
 
 }
@@ -7,9 +8,8 @@ body {
 #f {
     width: auto;
     height: 30px;
-    background:linear-gradient(#0000ff,mediumblue);
+    background: linear-gradient(#0000ff, mediumblue);
 }
-
 
 #header {
     text-align: right;
@@ -17,6 +17,7 @@ body {
     color: white;
     height: 100px;
     padding: 50px 200px;
+    font-family: monospace;
 
 
 }
@@ -24,9 +25,8 @@ body {
 #nav {
     width: auto;
     height: 70px;
-    background:linear-gradient(mediumblue,blue);
+    background: linear-gradient(mediumblue, blue);
 }
-
 
 
 #i {
@@ -43,23 +43,25 @@ body {
 .navbar {
     overflow: hidden;
     background-color: blue;
-    width: 700px;
+    width: auto;
+    text-align: center;
     float: right;
-    border-radius: 0px 0px 0px 25px;
+    border-radius: 0px 0px 0px 30px;
 }
 
 .navbar a {
-    float: left;
+    float: right;
     font-size: 27px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 
 .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
 }
 
@@ -94,11 +96,12 @@ body {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: right;
+
 }
 
 .dropdown-content a:hover {
-    background-color: lightskyblue;
+    background-color: blue;
 }
 
 .dropdown:hover .dropdown-content {
@@ -113,66 +116,53 @@ body {
     height: 900px;
 
 }
-#main_pic{
-    margin: 200px 0px 150px 70px;
-    float: left;
+
+#main_pic {
+
+    border: 6px solid black;
+    width: auto;
+    height: 450px;
+
 
 }
-#main_s {
-    width: 300px;
+
+
+#p0 {
+    border: 6px solid black;
+    width: auto;
+    height: 450px;
+
+}
+
+#p1 {
+    width: 700px;
     height: 400px;
-    float: left;
-    margin: 130px;
-}
-#main_ss {
-    width: 500px;
-    height: 60px;
-    margin: 170px 0px;
-    text-align: center;
-    font-size: 46px;
-    color: blue;
-    border: 7px solid blue;
-    border-radius: 40px;
-    background-color: floralwhite;
-
-
-}
-#p1{
-    width: 335px;
-    height: 500px;
     border: 5px solid blue;
     float: left;
-    margin: 0px 150px;
-    clear: left;
+    margin: 30px 0px 0px 130px;
+
 
 }
-#p2{
-    width: 335px;
-    height: 500px;
+
+#p2 {
+    width: 180px;
+    height: 30px;
     border: 5px solid blue;
     float: left;
-    margin: 0px 260px;
+    margin: 100px 0px 0px 400px;
 
 }
-#p3{
-    width: 335px;
-    height: 500px;
-    border: 5px solid blue;
+
+.p3 {
     float: left;
-    margin: 0px 170px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 90px;
 }
-#p4{
-    width: 450px;
-    height: 50px;
-    /*border: 5px solid blue;*/
-    clear: left;
-    margin: 110px;
-    font-size: 34px;
-    text-align: center;
-    color: blue;
 
-}
-#about{
+
+#about {
     background-color: dodgerblue;
     font-size: 34px;
     color: white;
@@ -180,12 +170,12 @@ body {
     width: 1500px;
     height: 340px;
     border: 8px solid blue;
-    border-radius: 50px ;
+    border-radius: 50px;
     text-align: center;
 
 }
 
-#about{
+#about {
     background-color: dodgerblue;
     font-size: 34px;
     color: white;
@@ -193,10 +183,12 @@ body {
     width: 1500px;
     height: 340px;
     border: 8px solid blue;
-    border-radius: 50px ;
+    border-radius: 50px;
     text-align: center;
 
-}#conection{
+}
+
+#conection {
     background-color: dodgerblue;
     font-size: 34px;
     color: white;
@@ -204,7 +196,7 @@ body {
     width: 1000px;
     height: 210px;
     border: 8px solid blue;
-    border-radius: 50px ;
+    border-radius: 50px;
     text-align: center;
 
 }
