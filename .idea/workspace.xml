@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="000d88dc-ccd4-44ad-b850-5937bf032abb" name="Default Changelist" comment="1">
+    <list default="true" id="000d88dc-ccd4-44ad-b850-5937bf032abb" name="Default Changelist" comment="2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nafis/static/nafis/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/static/nafis/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nafis/templates/nafis/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/templates/nafis/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nafis/templates/nafis/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/templates/nafis/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoProject1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoProject2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,7 +57,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -132,7 +132,9 @@
       <workItem from="1621546370422" duration="5704000" />
       <workItem from="1621630337457" duration="2085000" />
       <workItem from="1621670520084" duration="4690000" />
-      <workItem from="1621704437606" duration="5422000" />
+      <workItem from="1621704437606" duration="6660000" />
+      <workItem from="1621797547361" duration="11474000" />
+      <workItem from="1621852189163" duration="10106000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1621447865508</created>
@@ -197,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621552167979</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2">
+      <created>1621716838638</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621716838638</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2">
+      <created>1621716970708</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621716970708</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +239,7 @@
     <MESSAGE value="font changin" />
     <MESSAGE value="static changes" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>
