@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="000d88dc-ccd4-44ad-b850-5937bf032abb" name="Default Changelist" comment="mobile menu 4">
+    <list default="true" id="000d88dc-ccd4-44ad-b850-5937bf032abb" name="Default Changelist" comment="main pic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nafis/static/nafis/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/static/nafis/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nafis/templates/nafis/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/templates/nafis/base.html" afterDir="false" />
@@ -138,7 +138,7 @@
       <workItem from="1621881188117" duration="4572000" />
       <workItem from="1621893623381" duration="3543000" />
       <workItem from="1621953959684" duration="5846000" />
-      <workItem from="1622038522529" duration="19369000" />
+      <workItem from="1622038522529" duration="20472000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1621447865508</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622064919103</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="main pic">
+      <created>1622067418584</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1622067418584</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +298,7 @@
     <MESSAGE value="mobile menu 2" />
     <MESSAGE value="mobile menu 3" />
     <MESSAGE value="mobile menu 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile menu 4" />
+    <MESSAGE value="main pic" />
+    <option name="LAST_COMMIT_MESSAGE" value="main pic" />
   </component>
 </project>
