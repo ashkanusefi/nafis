@@ -1,7 +1,5 @@
 
 body {
-    /*background: linear-gradient(#fbfbfc, #a8c4e787);*/
-    margin: 7px !important;
     background-image: linear-gradient(white, #0e4cfc24);
 
 }
@@ -21,8 +19,6 @@ body {
     color: #ffffff;
     text-align: center;
     font-size: 16px;
-    margin-right: 0px !important;
-    margin-left: 0px !important;
     width: 100%;
 
 }
@@ -49,7 +45,6 @@ body {
     padding: 20px;
     width: 100%;
     color: white;
-!important;
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -67,7 +62,7 @@ body {
     padding: 7px;
     background-color: deepskyblue;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .main {
@@ -75,11 +70,11 @@ body {
     background-color: white;
 }
 
-.main_pic {
-    margin: 0px !important;
+.mainpic{
+    margin: 0!important;
 }
 
-.mainpic {
+.main_pic {
     width: 100%;
     height: auto;
 }
