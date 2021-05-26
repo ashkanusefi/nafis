@@ -1,8 +1,8 @@
 
 body {
     /*background: linear-gradient(#fbfbfc, #a8c4e787);*/
-    margin: 7px!important;
-    background-image: linear-gradient(white,#0e4cfc24);
+    margin: 7px !important;
+    background-image: linear-gradient(white, #0e4cfc24);
 
 }
 
@@ -16,55 +16,70 @@ body {
 }
 
 .header2 {
-    background-color:deepskyblue!important;
+    background-color: deepskyblue !important;
     padding: 15px;
     color: #ffffff;
     text-align: center;
     font-size: 16px;
-    margin-right: 0px!important;
-    margin-left: 0px!important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
     width: 100%;
 
 }
 
 .container_override {
     margin: 0 !important;
-    padding: 0!important;
-    max-width: 100%!important;
+    padding: 0 !important;
+    max-width: 100% !important;
 }
-.bi-instagram{
+
+.bi-instagram {
     color: deeppink;
 }
 
 .mynav2 {
     text-align: right;
-    
+
 }
-.header3{
+
+.header3 {
     background-color: blue;
-    text-align:center;
+    text-align: center;
     font-size: 22px;
     padding: 20px;
     width: 100%;
-    color: white;!important;
+    color: white;
+!important;
     border-radius: 0px 0px 5px 5px;
 }
-.mydropdown{
-    text-align: right!important;
-    background-color: deepskyblue!important;
+
+.mydropdown {
+    text-align: right !important;
+    background-color: deepskyblue !important;
 }
-.hea{
+
+.hea {
     margin-left: 7px;
 }
 
-.footer{
+.footer {
     text-align: center;
     padding: 7px;
     background-color: deepskyblue;
     width: 100%;
     border-radius: 5px;
 }
-.main{
+
+.main {
     padding: 100px;
     background-color: white;
+}
+
+.main_pic {
+    margin: 0px !important;
+}
+
+.mainpic {
+    width: 100%;
+    height: auto;
 }
