@@ -8,8 +8,9 @@
     </title>
     <link rel="stylesheet" type="text/css" href="{% static "nafis/css/main.css" %}">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
@@ -19,8 +20,14 @@
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
             crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,88 +38,84 @@
 
 <body>
 <div class="container container_override">
-    <div class="header row" style="text-align: center">خدمات در منزل نفیس اصفهان</div>
-    <div class="header2 row" style="text-align: center">
-        شماره های تماس 09020869701&nbsp;&nbsp;09020869706&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        مارا در
+    <div class="header">خدمات درمان در منزل نفیس اصفهان</div>
+
+    <div class="row header2">
+        <div class="col-lg-1"></div>
+        <div class="col-sm-5 col-lg-4 text-right">
+            مارا در
             <a href="#"><i class="bi bi-instagram"></i></a>
-        دنبال کنید
-        &nbsp;&nbsp;&nbsp;&nbsp;
-    </div>
-
-
-    <!-- Simulate a smartphone / tablet -->
-    <div class="mobile-container">
-
-        <!-- Top Navigation Menu -->
-        <div class="topnav">
-            <a class="active">هیچ جا خونه خودت نمیشه</a>
-            <div id="myLinks">
-
-                <div class="dropdown">
-                    <button class="dropbtn">خدمات
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="{% url "pezeshki" %}">خدمات پزشکی در منزل</a>
-                        <a href="{% url "parastari" %}">خدمات پرستاری در منزل</a>
-                        <a href="{% url "fisoterpy" %}">فیزیوتراپی در منزل</a>
-                        <a href="{% url "kardarmani" %}">کاردرمانی در منزل</a>
-                        <a href="{% url "goftar" %}">گفتار درمانی در منزل</a>
-                        <a href="{% url "fani" %}">ارتوپدی فنی</a>
-                    </div>
-                </div>
-
-
-                <div class="dropdown">
-                    <button class="dropbtn">ویدیو های اموزشی
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">سکته مغزی</a>
-                        <a href="#">پارکینسون</a>
-                        <a href="#">ام اس</a>
-                        <a href="#">ضربه مغزی</a>
-                        <a href="#">سایر بیماری های مغز و اعصاب</a>
-                        <a href="#">سایر بیماری های ارتپدی</a>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <button class="dropbtn">ارتباط با ما</button>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">درباره ما</button>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">صفحه نخست</button>
-                </div>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+            دنبال کنید
         </div>
+        <div class="col-sm-7 col-lg-6 text-left">
+            <i class="bi bi-telephone-fill"></i>
+            09020869706
+            &nbsp;&nbsp;&nbsp;&nbsp;
 
+            <i class="bi bi-telephone-fill"></i>
+            09020869701
+        </div>
+        <div class="col-lg-1"></div>
     </div>
-
-
 </div>
+
+<div class="header3">هیچ جا خونه خودت نمیشه</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light mynav1" dir="rtl">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mynav2">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">صفحه نخست<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    خدمات
+                </a>
+                <div class="dropdown-menu mydropdown" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">خدمات پزشکی در منزل</a>
+                    <a class="dropdown-item" href="#">خدمات پرستاری در منزل</a>
+                    <a class="dropdown-item" href="#">فیزیوتراپی در منزل</a>
+                    <a class="dropdown-item" href="#">کار درمانی در منزل</a>
+                    <a class="dropdown-item" href="#">گفتار درمانی در منزل</a>
+                    <a class="dropdown-item" href="#">ارتوپدی فنی</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    ویدیو های اموزشی
+                </a>
+                <div class="dropdown-menu mydropdown" href="#" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">سکته مغزی</a>
+                    <a class="dropdown-item" href="#">پارکینسون</a>
+                    <a class="dropdown-item" href="#">ام اس</a>
+                    <a class="dropdown-item" href="#">ضربه مغزی</a>
+                    <a class="dropdown-item" href="#">سایر بیماری های ارتوپدی</a>
+                    <a class="dropdown-item" href="#">سایر بیماری های مغز و اعصاب</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ارتباط با ما</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">درباره ما</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
 
 {% block main_content %}{% endblock %}
 <script src="{% static "nafis/js/bootstrap.bundle.js" %}"></script>
 <script src="{% static "nafis/js/jquery-3.6.0.min.js" %}"></script>
 <script src="{% static "nafis/js/main.js" %}"></script>
-<script>
-    function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
-</script>
 
 
 </body>
