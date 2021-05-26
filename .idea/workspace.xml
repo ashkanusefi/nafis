@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="000d88dc-ccd4-44ad-b850-5937bf032abb" name="Default Changelist" comment="mobile menu 2">
+    <list default="true" id="000d88dc-ccd4-44ad-b850-5937bf032abb" name="Default Changelist" comment="mobile menu 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nafis/static/nafis/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/static/nafis/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nafis/templates/nafis/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/templates/nafis/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +138,7 @@
       <workItem from="1621881188117" duration="4572000" />
       <workItem from="1621893623381" duration="3543000" />
       <workItem from="1621953959684" duration="5846000" />
-      <workItem from="1622038522529" duration="9116000" />
+      <workItem from="1622038522529" duration="11189000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1621447865508</created>
@@ -236,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622050936410</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="mobile menu 3">
+      <created>1622051477988</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622051477988</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +275,7 @@
     <MESSAGE value="mobile menu" />
     <MESSAGE value="mobile menu 1" />
     <MESSAGE value="mobile menu 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile menu 2" />
+    <MESSAGE value="mobile menu 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile menu 3" />
   </component>
 </project>

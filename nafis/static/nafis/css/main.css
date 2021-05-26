@@ -19,7 +19,7 @@ body {
     padding: 15px;
     color: #ffffff;
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
     margin-right: 0px!important;
     margin-left: 0px!important;
     width: 100%;
@@ -46,6 +46,7 @@ body {
     padding: 20px;
     width: 100%;
     color: white;!important;
+    border-radius: 0px 0px 5px 5px;
 }
 .mydropdown{
     text-align: right!important;
@@ -55,4 +56,14 @@ body {
     margin-left: 7px;
 }
 
-
+.footer{
+    text-align: center;
+    padding: 7px;
+    background-color: deepskyblue;
+    width: 100%;
+    border-radius: 5px;
+}
+.main{
+    padding: 100px;
+    background-color: white;
+}
