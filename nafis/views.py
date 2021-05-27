@@ -64,3 +64,16 @@ def fisoterpy(request):
 
     }
     return render(request, "nafis/fisoterpy.html", context)
+
+
+def video(request):
+    context = {
+
+    }
+    return render(request, "nafis/video.html", context)
+
+def tavanbakhshi(request):
+    context = {
+
+    }
+    return render(request, "nafis/tavanbakhshi.html", context)

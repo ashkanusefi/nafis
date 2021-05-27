@@ -3,8 +3,39 @@
 {% block title %}
     کار درمانی در منزل
 {% endblock %}
-<br/>
-<br/>
-<br/>
-<br/>
-{% block main_content %}{% endblock %}
+{% block main_content %}
+    <div class="row pics">
+        <div class="column">
+            <div class="card tozih">
+                <br>
+                <h4>کاردرمانی در منزل</h4>
+                <br>
+                کاردرمانی در بزرگسالان برای انواع بیماری های نورولوژی (سکته مغزی-ضربه مغزی-
+                ام اس-گیلن باره و... ) و بیماری های ارتوپدی (شکستگی ها-پارگی رباط و تاندون-
+                تعویض مفصل و...)
+                <br>
+                کاردرمانی جسمی کودکان در بیماری های مغز و اعصاب ، ارتوپدی، تاخیر رشدی، فلج
+                مغزی و...
+                <br>
+                کاردرمانی ذهنی کودکان (اتیسم-اختلال نقص توجه و بیش فعالی-مشکلات رفتاری-سندرم
+                داون-اختلال خواندن و نوشتن و... )
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img class="pict" src="{% static "nafis/images/IMG-20210524-WA0004.jpg" %}">
+                <br>
+                <img class="pict" src="{% static "nafis/images/esaf.jpg" %}">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img class="pict" src="{% static "nafis/images/IMG-20210524-WA0011.jpg" %}">
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

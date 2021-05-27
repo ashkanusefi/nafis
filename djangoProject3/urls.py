@@ -18,15 +18,17 @@ from django.urls import path
 from nafis import views
 
 urlpatterns = [
-    #path('admin/', admin.site.urls),
-    path("",views.home, name="nafis"),
-    path("about/",views.about,name="about"),
-    path("conection/",views.conection,name="conection"),
-    path("fani/",views.fani,name="fani"),
-    path("parastari/",views.parastari,name="parastari"),
-    path("pezeshki/",views.pezeshki,name="pezeshki"),
-    path("kardarmani/",views.kardarmani,name="kardarmani"),
-    path("goftar/",views.goftar,name="goftar"),
-    path("fisoterpy/",views.fisoterpy,name="fisoterpy")
+    # path('admin/', admin.site.urls),
+    path("", views.home, name="nafis"),
+    path("about/", views.about, name="about"),
+    path("conection/", views.conection, name="conection"),
+    path("fani/", views.fani, name="fani"),
+    path("parastari/", views.parastari, name="parastari"),
+    path("pezeshki/", views.pezeshki, name="pezeshki"),
+    path("kardarmani/", views.kardarmani, name="kardarmani"),
+    path("goftar/", views.goftar, name="goftar"),
+    path("fisoterpy/", views.fisoterpy, name="fisoterpy"),
+    path("video/", views.video, name="video"),
+    path("tavanbakhshi/",views.tavanbakhshi,name="tavanbakhshi"),
 
 ]
