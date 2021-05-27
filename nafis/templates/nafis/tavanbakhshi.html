@@ -1,0 +1,41 @@
+{% extends "nafis/base.html" %}
+{% load static %}
+{% block title %}
+    کار درمانی در منزل
+{% endblock %}
+{% block main_content %}
+    <div class="row about">
+        <div class="col-sm-2 col-lg-3"></div>
+        <div class="col-sm-8 col-lg-6">
+            <h4>خدمات توانبخشی در منزل نفیس</h4>
+            <br>
+            <p>
+                خدمات توانبخشی در منزل نفیس شامل چهار بخش زیر میباشد
+                <br>
+                برای اطلاعات بیشتر روی هر گزینه کلیک کنید
+            </p>
+            <a href="{% url "fani" %}">
+                ارتپدی فنی
+            </a>
+            <br>
+            <a href="{% url "kardarmani" %}">
+            کاردرمانی
+            </a>
+            <br>
+
+            <a href="{% url "goftar" %}">
+            گفتار درمانی
+            </a>
+            <br>
+            <a href="{% url "fisoterpy" %}">
+            فیزیوتراپی
+            </a>
+            <br>
+            <br>
+        </div>
+        <div class="col-sm-2 col-lg-3"></div>
+
+    </div>
+    <br>
+    <br>
+{% endblock %}
