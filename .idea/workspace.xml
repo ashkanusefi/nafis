@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc2922da-9d88-44d6-a6f8-2982dfbdd0f9" name="Default Changelist" comment="first version" />
+    <list default="true" id="cc2922da-9d88-44d6-a6f8-2982dfbdd0f9" name="Default Changelist" comment="first version 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nafis/static/nafis/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/static/nafis/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nafis/templates/nafis/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/templates/nafis/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nafis/templates/nafis/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/templates/nafis/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nafis/templates/nafis/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/templates/nafis/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nafis/templates/nafis/tavanbakhshi.html" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/templates/nafis/tavanbakhshi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nafis/templates/nafis/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/nafis/templates/nafis/video.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +49,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASHKAN\Desktop\projects\djangoProject3\nafis\static\nafis\css" />
+      <recent name="C:\Users\ASHKAN\Desktop\projects\djangoProject3\nafis\static\nafis\js" />
       <recent name="C:\Users\ASHKAN\Desktop\projects\djangoProject3\nafis\static\nafis\images" />
     </key>
   </component>
@@ -86,6 +96,9 @@
       <option name="presentableId" value="Default" />
       <updated>1622108065545</updated>
       <workItem from="1622108071102" duration="22437000" />
+      <workItem from="1622132084951" duration="843000" />
+      <workItem from="1622157601220" duration="1240000" />
+      <workItem from="1622162465281" duration="4644000" />
     </task>
     <task id="LOCAL-00002" summary="first version">
       <created>1622131732989</created>
@@ -94,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622131732989</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first version 1">
+      <created>1622132222074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622132222074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cewfm" />
     <MESSAGE value="first version" />
-    <option name="LAST_COMMIT_MESSAGE" value="first version" />
+    <MESSAGE value="first version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="first version 1" />
   </component>
 </project>
